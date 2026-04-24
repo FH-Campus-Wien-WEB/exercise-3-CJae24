@@ -1,11 +1,26 @@
 body {
-  font-family: "Trebuchet MS", sans-serif;
-  background-color: brown;
-  color: beige;
+  margin: 0;
+  background: linear-gradient(180deg, #0f172a 0%, #1e293b 100%);
+  color: #e2e8f0;
 }
-
+header {
+  background-color: #526d82;
+  color: #f8f9fa;
+  padding: 1rem;
+}
+nav {
+  background-color: #9db8cc;
+  padding: 1rem;
+}
 main {
-  color: #333;
+  background-color: #ddebf5;
+  padding: 1.5rem;
+  border-radius: 24px;
+}
+footer {
+  background-color: #526d82;
+  color: #f8f9fa;
+  padding: 1rem;
 }
 
 button {
@@ -18,3 +33,31 @@ button {
 button:hover {
   background-color: darkgray;
 }
+
+nav button,
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 1rem;
+  background-color: #526d82;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+nav button:hover,
+button:hover {
+  background-color: #3f576b;
+}
+.genre {
+  padding: 6px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #9db8cc;
+  color: #1f2937;
+  font-weight: bold;
+}
+
+
+
+
+
