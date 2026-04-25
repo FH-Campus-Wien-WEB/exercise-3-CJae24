@@ -23,18 +23,10 @@ footer {
   padding: 1rem;
 }
 
-button {
-    padding: 4px;
-    border-width: 1px;
-    border-radius: 4px;
-    font-size: 105%;
-}
-
 button:hover {
   background-color: darkgray;
 }
 
-nav button,
 button {
   border: none;
   border-radius: 10px;
@@ -44,6 +36,7 @@ button {
   font-weight: 600;
   cursor: pointer;
 }
+
 nav button:hover,
 button:hover {
   background-color: #3f576b;
@@ -56,6 +49,7 @@ button:hover {
   color: #1f2937;
   font-weight: bold;
 }
+
 
 
 

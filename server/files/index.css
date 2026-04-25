@@ -15,11 +15,13 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12px;
 }
 
 /* navigation buttons have full width */
 nav button {
   width: 100%;
+  
 }
 
 /* Remove unnecessary space and bullets from the lists */
@@ -27,6 +29,10 @@ ul {
   padding: 0px;
   margin: 16px;
   list-style-type: none;
+  display: flex;
+  flex-direction:column;
+  gap: 6px;
+  
 }
 
 
@@ -91,6 +97,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 /* Task 3.3. Make the main element a Flexbox container */
@@ -118,6 +125,7 @@ img {
 article {
   background-color: rgb(109, 140, 157);
   border-radius: 30px;
+  width: 420px;
   margin: 20px 0;
   padding: 30px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
